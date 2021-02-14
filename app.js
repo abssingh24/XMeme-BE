@@ -4,8 +4,8 @@ const cors = require('cors');
 const config = require('./config.json');
 
 const app = express();
-const port = 8081;
-// const port = process.env.PORT || 3338;
+// const port = 8081;
+const port = process.env.PORT || 3338;
 const url = config.db_server;
 
 mongoose.connect(url,{useNewUrlParser:true})
