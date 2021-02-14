@@ -21,3 +21,5 @@ app.use('/memes',memeRouter)
 app.listen(port, () => {
     console.log(`server is running on ${port}`);
 })
+
+
